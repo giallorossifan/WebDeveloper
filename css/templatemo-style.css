@@ -192,7 +192,7 @@ header .social-icon li a
 .navbar-default .navbar-nav li a
 	{
 		font-weight: bold;
-		font-size: 13px;
+		font-size: 20px;
 		height: 70px;
 		line-height: 40px;
     color: black;
@@ -206,11 +206,12 @@ header .social-icon li a
 	width: 100%;
 	z-index: 1000;
 }
-.sticky {
-	/* position: fixed; */
+/* .sticky {
+	position: fixed;
 	left: 0;
 	top: 0;
-}
+} */
+
 /* end navigation */
 
 /* start home */
@@ -316,9 +317,13 @@ header .social-icon li a
 		padding-top: 20px;
 		padding-left: 52px;
 	}
+  .aboutimage{
+    width: 250px;
+    height: auto;
+  }
 /* end about */
 
-/* start team */
+/* start Work Experience */
 #team .team-wrapper
 	{
 		background: #404040;
@@ -344,7 +349,11 @@ header .social-icon li a
 		font-weight: bold;
 		padding-bottom: 12px;
 	}
-/* end team */
+  .img-work-experience{
+    width: 263px;
+    height: auto;
+  }
+/* end Work Experience */
 
 /* start service */
 #service .col-md-4
@@ -403,6 +412,8 @@ header .social-icon li a
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
+
+
 		background: #28a7e9;
 		top: 0;
 		left: 0;
@@ -430,12 +441,22 @@ header .social-icon li a
 		border-radius: 2px;
 		color: #fff;
 		font-weight: bold;
+
+
 	}
 #portfolio .portfolio-thumb:hover .portfolio-overlay
 	{
 		cursor: pointer;
 		opacity: 0.8;
+    width: 292.5px;
+    height: 195px;
+
 	}
+  .portfolio-img{
+    width: 292.5px;
+    height: 195px;
+
+  }
 /* end portfolio */
 
 /* start contact */
