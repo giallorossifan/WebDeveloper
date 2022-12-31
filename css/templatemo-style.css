@@ -168,9 +168,9 @@ header .social-icon li a
 .logo{
   font-weight: 500;
   font-size: 50px;
-  height: 90px;
+  height: 120px;
   line-height: 40px;
-  padding: 8px 0px 0px 8px;
+  padding: 1px 0px 0px 1px;
   border-radius: 50%;
 }
 .navbar-default
@@ -200,7 +200,9 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current {
-	color: #28A7E9;
+	/* color: #28A7E9; */
+	color:blue;
+
 }
 .templatemo-nav {
 	border-radius: 0;
@@ -264,6 +266,7 @@ header .social-icon li a
 		font-weight: 300;
 		font-size: 70px;
 		padding-bottom: 10px;
+    margin-top: 40%;
 	}
 #home h1 span
 	{
@@ -296,6 +299,9 @@ header .social-icon li a
 /* end home */
 
 /* start about */
+#about{
+  margin-top: 150px;
+}
 #about .media-heading-wrapper
 	{
 		padding-bottom: 32px;
