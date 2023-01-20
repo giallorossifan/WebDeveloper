@@ -7,10 +7,12 @@ body
 	{
 
  		background: #303030;
+	  /* background: #47C6F8; */
  		color: #ffffff;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
+
 	}
 
 a {
@@ -41,6 +43,8 @@ h2 span
 	{
 		padding-top: 60px;
 		padding-bottom: 40px;
+    /* background: #47C6F8 */
+
 	}
 /* end about team service portfolio contact */
 
